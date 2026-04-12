@@ -31,8 +31,8 @@ if not st.session_state.show_result:
     """
 
     st.markdown(page_bg_img, unsafe_allow_html=True)
-    model=pickle.load(open(r'C:\Users\there\OneDrive\Documents\VSCODEDS\arsenalml\model.sav','rb'))
-    scaler=pickle.load(open(r'C:\Users\there\OneDrive\Documents\VSCODEDS\arsenalml\scaler.sav','rb'))
+    model=pickle.load(open(r'model.sav','rb'))
+    scaler=pickle.load(open(r'scaler.sav','rb'))
     if 'poss' not in st.session_state:
         st.session_state.poss=1
     if 'opp_poss' not in st.session_state:
@@ -73,22 +73,22 @@ if not st.session_state.show_result:
         st.markdown("### Our Team Stats")
         
         Poss = st.slider("Possession (%)", min_value=1, max_value=99, step=1, key="poss", on_change=poss_change)
-        Shots = st.text_input("Shots", min_value=0, max_value=50, step=1, key="shots")
-        SOT = st.text_input("Shots on Target", min_value=0, max_value=Shots, step=1, key="sot")
-        Pass = st.text_input("Passes Completed", min_value=10, max_value=2000, step=1, key="pass")
+        Shots = st.number_input("Shots", min_value=0, max_value=50, step=1, key="shots")
+        SOT = st.number_input("Shots on Target", min_value=0, max_value=Shots, step=1, key="sot")
+        Pass = st.number_input("Passes Completed", min_value=10, max_value=2000, step=1, key="pass")
         Pass_Acc = st.slider("Pass Accuracy (%)", min_value=1, max_value=99, step=1, key="pass_acc")
-        Corner = st.text_input("Corners", min_value=0, max_value=40, step=1, key="cor")
-        Fouls = st.text_input("Fouls", min_value=0, max_value=40, step=1, key="foul")
+        Corner = st.number_input("Corners", min_value=0, max_value=40, step=1, key="cor")
+        Fouls = st.number_input("Fouls", min_value=0, max_value=40, step=1, key="foul")
 
     with col2:
         st.markdown("### Opponent Stats")
         Opp_Poss = st.slider("Possession (%)",value=st.session_state.opp_poss,disabled=True)
-        Opp_Shots = st.text_input("Shots", min_value=0, max_value=50, step=1, key="opp_shots")
-        Opp_SOT = st.text_input("Shots on Target", min_value=0, max_value=Opp_Shots, step=1, key="opp_sot")
-        Opp_Pass = st.text_input("Passes Completed", min_value=10, max_value=2000, step=1, key="opp_pass")
+        Opp_Shots = st.number_input("Shots", min_value=0, max_value=50, step=1, key="opp_shots")
+        Opp_SOT = st.number_input("Shots on Target", min_value=0, max_value=Opp_Shots, step=1, key="opp_sot")
+        Opp_Pass = st.number_input("Passes Completed", min_value=10, max_value=2000, step=1, key="opp_pass")
         Opp_Pass_Acc = st.slider("Pass Accuracy (%)", min_value=1, max_value=99, step=1, key="opp_pass_acc")
-        Opp_Corner = st.text_input("Corners", min_value=0, max_value=40, step=1, key="opp_cor")
-        Opp_Fouls = st.text_input("Fouls", min_value=0, max_value=40, step=1, key="opp_foul")
+        Opp_Corner = st.number_input("Corners", min_value=0, max_value=40, step=1, key="opp_cor")
+        Opp_Fouls = st.number_input("Fouls", min_value=0, max_value=40, step=1, key="opp_foul")
     st.sidebar.header("Instructions")
     st.sidebar.write("Fill in match stats and click 'See Score!!!' to predict.")
     
