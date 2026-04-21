@@ -28,23 +28,22 @@ Jupyter Notebook for analysis workflow
 
 GitHub for version control and portfolio presentation
 
-## Project Structure
+'''## Project Structure
 
 Arsenal-matchprediction/
-
-│── data/                  # Raw and cleaned datasets 
-│   └── Arsenal.csv 
-│ 
-│── EDA/                   # Jupyter notebooks for exploratory analysis & modeling 
-│   └── Arsenal.ipynb 
-│ 
-│── models/                # Saved regression model and scaler 
-│   ├── model.sav 
-│   └── scaler.sav 
-│ 
-│── projectml.py           # Main Streamlit app script 
-│── requirements.txt       # Python dependencies 
-│── README.md              # Project documentation 
+│── data/                  # Raw and cleaned datasets
+│   └── Arsenal.csv
+│
+│── EDA/                   # Jupyter notebooks for exploratory analysis & modeling
+│   └── Arsenal.ipynb
+│
+│── models/                # Saved regression model and scaler
+│   ├── model.sav
+│   └── scaler.sav
+│
+│── projectml.py           # Main Streamlit app script
+│── requirements.txt       # Python dependencies
+│── README.md              # Project documentation'''
 
 ## Results
 
