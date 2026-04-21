@@ -31,8 +31,8 @@ if not st.session_state.show_result:
     """
 
     st.markdown(page_bg_img, unsafe_allow_html=True)
-    model=pickle.load(open(r'model.sav','rb'))
-    scaler=pickle.load(open(r'scaler.sav','rb'))
+    model=pickle.load(open(r'model/model.sav','rb'))
+    scaler=pickle.load(open(r'model/scaler.sav','rb'))
     if 'poss' not in st.session_state:
         st.session_state.poss=1
     if 'opp_poss' not in st.session_state:
