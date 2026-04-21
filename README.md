@@ -1,12 +1,12 @@
-## **Arsenal Match Prediction** ⚽📊
+# **Arsenal Match Prediction** ⚽📊
 
-# Overview
+## Overview
 
 This project applies data science and machine learning techniques to predict the outcomes of Arsenal football matches. It combines historical match data, feature engineering, and predictive modeling to deliver insights into team performance and match results.
 The goal is to demonstrate practical applications of data analysis, modeling, and visualization in sports analytics—showcasing skills relevant to data analyst and data scientist roles.
 This project applies regression modeling to predict Arsenal match outcomes and performance metrics. It demonstrates end‑to‑end data science workflow: data preprocessing, feature engineering, regression modeling, and deployment via Streamlit.
 
-# Features
+## Features
 
 📂 Data Collection & Cleaning: Preprocessed Arsenal match datasets with structured features.
 
@@ -18,7 +18,7 @@ This project applies regression modeling to predict Arsenal match outcomes and p
 
 🎨 Visualizations: Clear, recruiter‑ready plots using Matplotlib/Seaborn for storytelling impact.
 
-# Tech Stack
+## Tech Stack
 
 Python (Pandas, NumPy, Scikit‑learn)
 
@@ -28,17 +28,21 @@ Jupyter Notebook for analysis workflow
 
 GitHub for version control and portfolio presentation
 
-# Project Structure
+## Project Structure
 
-Arsenal-matchprediction/
+Arsenal-matchprediction/ 
 │── data/                # Raw and cleaned datasets
-│── notebooks/           # Jupyter notebooks for EDA & modeling
-│── src/                 # Python scripts for preprocessing & training
-│── visuals/             # Generated plots and charts
+  |── Arsenal.csv
+│── EDA/                 # Jupyter notebooks for EDA & modeling
+  |── Arsenal.ipynb        
+│── models/              # Models saved 
+  |── model.sav
+  |── scaler.sav
+|── projectml.py         # main script
 │── requirements.txt     # Dependencies
 │── README.md            # Project documentation
 
-# Results
+## Results
 
 ✅ Achieved 0.39 R2 Score with Linear Regression (Average Score for Sports Models).
 
@@ -46,7 +50,7 @@ Arsenal-matchprediction/
 
 ⚡ Demonstrated reproducible workflow from raw data → insights → predictions.
 
-# How to Run
+## How to Run
 
 Clone the repository:
 
@@ -54,11 +58,10 @@ git clone https://github.com/aadilshajahan12/Arsenal-matchprediction.git
 Install dependencies:
 
 pip install -r requirements.txt
-Run Jupyter notebooks:
 
-jupyter notebook notebooks/
+streamlit run arsenal_matchprediction.py
 
-# Business Impact
+## Business Impact
 
 Sports analytics projects like this highlight:
 
@@ -74,7 +77,7 @@ Sports analytics projects like this highlight:
 
 📌 Showcases reproducibility and clarity for recruiter‑facing projects
 
-# Next Steps
+## Next Steps
 
 Expand dataset to include more seasons.
 
@@ -82,7 +85,7 @@ Integrate advanced models (XGBoost, Neural Networks).
 
 Deploy interactive dashboard with Streamlit for user‑friendly predictions.
 
-# Author :
-Aadil Shajahan  
+## Author :
+**Aadil Shajahan**  
 Data Science Enthusiast | Preparing for Data Analyst/Data Scientist roles
-LinkedIn (linkedin.com in Bing) | GitHub (github.com in Bing)
+LinkedIn (www.linkedin.com/in/aadilshajahan) | GitHub ()
