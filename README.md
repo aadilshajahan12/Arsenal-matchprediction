@@ -29,23 +29,22 @@ Jupyter Notebook for analysis workflow
 GitHub for version control and portfolio presentation
 
 ## Project Structure
-'''markdown  
-Arsenal-matchprediction/
 
-│── data/                  #  Raw and cleaned datasets  
-│   └── Arsenal.csv  
-│  
-│── EDA/                   #  Jupyter notebooks for exploratory analysis & modeling  
-│   └── Arsenal.ipynb  
-│  
-│── models/                #  Saved regression model and scaler  
-│   ├── model.sav  
-│   └── scaler.sav  
-│  
-│── projectml.py           #  Main Streamlit app script  
-│── requirements.txt       #  Python dependencies  
-│── README.md              #  Project documentation  
-''' 
+Arsenal-matchprediction/
+│── data/                  # Raw and cleaned datasets
+│   └── Arsenal.csv
+│
+│── EDA/                   # Jupyter notebooks for exploratory analysis & modeling
+│   └── Arsenal.ipynb
+│
+│── models/                # Saved regression model and scaler
+│   ├── model.sav
+│   └── scaler.sav
+│
+│── projectml.py           # Main Streamlit app script
+│── requirements.txt       # Python dependencies
+│── README.md              # Project documentation
+
 ## Results
 
 ✅ Achieved 0.39 R2 Score with Linear Regression (Average Score for Sports Models).
