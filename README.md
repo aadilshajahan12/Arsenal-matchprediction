@@ -31,15 +31,25 @@ GitHub for version control and portfolio presentation
 ## Project Structure
 
 Arsenal-matchprediction/ 
+
 │── data/                # Raw and cleaned datasets
+  
   |── Arsenal.csv
+
 │── EDA/                 # Jupyter notebooks for EDA & modeling
+
   |── Arsenal.ipynb        
+
 │── models/              # Models saved 
+
   |── model.sav
+  
   |── scaler.sav
+
 |── projectml.py         # main script
+
 │── requirements.txt     # Dependencies
+
 │── README.md            # Project documentation
 
 ## Results
@@ -55,6 +65,7 @@ Arsenal-matchprediction/
 Clone the repository:
 
 git clone https://github.com/aadilshajahan12/Arsenal-matchprediction.git
+
 Install dependencies:
 
 pip install -r requirements.txt
@@ -88,4 +99,5 @@ Deploy interactive dashboard with Streamlit for user‑friendly predictions.
 ## Author :
 **Aadil Shajahan**  
 Data Science Enthusiast | Preparing for Data Analyst/Data Scientist roles
+
 LinkedIn (www.linkedin.com/in/aadilshajahan) | GitHub ()
