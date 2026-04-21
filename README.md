@@ -18,6 +18,9 @@ This project applies regression modeling to predict Arsenal match outcomes and p
 
 🎨 Visualizations: Clear, recruiter‑ready plots using Matplotlib/Seaborn for storytelling impact.
 
+## Live Demo
+👉 Streamlit App (https://aadil-arsenal-matchprediction.streamlit.app/)
+
 ## Tech Stack
 
 Python (Pandas, NumPy, Scikit‑learn)
