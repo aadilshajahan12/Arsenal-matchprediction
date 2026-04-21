@@ -31,6 +31,7 @@ GitHub for version control and portfolio presentation
 ## Project Structure
 
 Arsenal-matchprediction/
+
 │── data/                  # Raw and cleaned datasets  
 │   └── Arsenal.csv  
 │
