@@ -27,9 +27,9 @@ Matplotlib / Seaborn for visualization
 Jupyter Notebook for analysis workflow
 
 GitHub for version control and portfolio presentation
-```
-## Project Structure
 
+## Project Structure
+```
 Arsenal-matchprediction/
 │── data/                  # Raw and cleaned datasets
 │   └── Arsenal.csv
