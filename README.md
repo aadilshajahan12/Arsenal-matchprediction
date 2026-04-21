@@ -91,5 +91,5 @@ Deploy interactive dashboard with Streamlit for user‑friendly predictions.
 
 ## Author :
 **Aadil Shajahan**  
-Data Science Enthusiast | Preparing for Data Analyst/Data Scientist roles
+Data Science Enthusiast | Preparing for Data Analyst/Data Scientist roles    
 LinkedIn (www.linkedin.com/in/aadilshajahan) 
