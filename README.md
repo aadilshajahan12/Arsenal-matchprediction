@@ -31,19 +31,19 @@ GitHub for version control and portfolio presentation
 ## Project Structure
 
 Arsenal-matchprediction/
-│── data/                  # Raw and cleaned datasets
-│   └── Arsenal.csv
+│── data/                  # Raw and cleaned datasets  
+│   └── Arsenal.csv  
 │
-│── EDA/                   # Jupyter notebooks for exploratory analysis & modeling
-│   └── Arsenal.ipynb
+│── EDA/                   # Jupyter notebooks for exploratory analysis & modeling  
+│   └── Arsenal.ipynb  
 │
-│── models/                # Saved regression model and scaler
-│   ├── model.sav
-│   └── scaler.sav
-│
-│── projectml.py           # Main Streamlit app script
-│── requirements.txt       # Python dependencies
-│── README.md              # Project documentation
+│── models/                # Saved regression model and scaler  
+│   ├── model.sav  
+│   └── scaler.sav  
+│  
+│── projectml.py           # Main Streamlit app script  
+│── requirements.txt       # Python dependencies  
+│── README.md              # Project documentation  
 
 ## Results
 
