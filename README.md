@@ -33,18 +33,14 @@ GitHub for version control and portfolio presentation
 Arsenal-matchprediction/ 
 
 │── data/                # Raw and cleaned datasets
-  
-  |── Arsenal.csv
+   |── Arsenal.csv
 
 │── EDA/                 # Jupyter notebooks for EDA & modeling
-
-  |── Arsenal.ipynb        
+   |── Arsenal.ipynb        
 
 │── models/              # Models saved 
-
-  |── model.sav
-  
-  |── scaler.sav
+   |── model.sav
+   |── scaler.sav
 
 |── projectml.py         # main script
 
@@ -99,5 +95,4 @@ Deploy interactive dashboard with Streamlit for user‑friendly predictions.
 ## Author :
 **Aadil Shajahan**  
 Data Science Enthusiast | Preparing for Data Analyst/Data Scientist roles
-
-LinkedIn (www.linkedin.com/in/aadilshajahan) | GitHub ()
+LinkedIn (www.linkedin.com/in/aadilshajahan) 
