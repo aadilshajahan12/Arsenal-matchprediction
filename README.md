@@ -27,8 +27,8 @@ Matplotlib / Seaborn for visualization
 Jupyter Notebook for analysis workflow
 
 GitHub for version control and portfolio presentation
-
-''' ## Project Structure
+```
+## Project Structure
 
 Arsenal-matchprediction/
 │── data/                  # Raw and cleaned datasets
@@ -43,8 +43,8 @@ Arsenal-matchprediction/
 │
 │── projectml.py           # Main Streamlit app script
 │── requirements.txt       # Python dependencies
-│── README.md              # Project documentation '''
-
+│── README.md              # Project documentation
+```
 ## Results
 
 ✅ Achieved 0.39 R2 Score with Linear Regression (Average Score for Sports Models).
